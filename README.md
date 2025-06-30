@@ -7,7 +7,7 @@ Ce projet s’inscrit dans le cadre d’un **cours de simulation numérique**, e
 
 ---
 
-## 📘 Objectif
+## Objectif
 
 Ces exemples pédagogiques montrent comment :
 
@@ -19,7 +19,7 @@ Ces exemples pédagogiques montrent comment :
 
 ---
 
-## 🧪 Exemple 1 : Traction 2D – Influence des conditions aux limites
+## Exemple 1 : Traction 2D – Influence des conditions aux limites
 
 📄 **Fichier :** `traction_conditions_limites.ipynb`
 
@@ -28,21 +28,17 @@ Ce premier notebook étudie une plaque carrée soumise à une traction verticale
 1. Encastrement en bas (`dx = 0`)
 2. Blocage uniquement vertical (`dx` libre)
 
-### 🎯 Objectifs
-
 - Observer l’effet de la contrainte de déplacement horizontal sur la réponse mécanique.
 - Analyser les champs de déplacement (`Disp_XX`, `Disp_YY`), contraintes (`Stress_XX`, `Stress_YY`) et déformations (`Strain_XX`, `Strain_YY`).
 - Comprendre l’effet de **Poisson** et l’impact des conditions aux limites sur la redistribution des efforts.
 
 ---
 
-## 🧱 Exemple 2 : Poutre en I 3D – Flexion verticale
+## Exemple 2 : Poutre en I 3D – Flexion verticale
 
 📄 **Fichier :** `poutre_I_flexion.ipynb`
 
 Ce second exemple montre comment modéliser une **poutre en I 3D** soumise à une charge verticale à son centre.
-
-### 🧩 Étapes
 
 - Création d’un maillage structuré 2D en forme de I, extrudé en 3D.
 - Passage à des éléments de type **wedge (15 nœuds)**.
@@ -53,7 +49,7 @@ Ce second exemple montre comment modéliser une **poutre en I 3D** soumise à un
 
 ---
 
-## 🛠️ Technologies utilisées
+## Technologies utilisées
 
 - **Fedoo** : bibliothèque Python de simulation par éléments finis  
 - **Numpy** : calcul numérique  
@@ -61,9 +57,9 @@ Ce second exemple montre comment modéliser une **poutre en I 3D** soumise à un
 
 ---
 
-## 📦 Installation
+## Installation
 
-### 🔧 Dépendances nécessaires
+### Dépendances nécessaires
 (*installées via un environnement Miniconda ou pip standard*) :
 
 ```bash
