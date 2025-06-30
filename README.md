@@ -60,7 +60,7 @@ Ce second exemple montre comment modéliser une **poutre en I 3D** soumise à un
 ## Installation
 
 ### Dépendances nécessaires
-(*installées via un environnement Miniconda ou pip standard*) :
+(*installées via un environnement Miniconda*) :
 
 ```bash
 pip install fedoo numpy pyvista
