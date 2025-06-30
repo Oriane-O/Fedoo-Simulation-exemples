@@ -1,6 +1,6 @@
 # 🧮 Exemples d'utilisation de Fedoo pour la simulation numérique en mécanique
 
-Ce projet s’inscrit dans le cadre d’un **cours de simulation numérique**, et présente deux exemples concrets d’utilisation de la bibliothèque **[Fedoo](https://fedoo.dev)** pour la mécanique des milieux continus.
+Ce projet s’inscrit dans le cadre d’un **cours de simulation numérique**, et présente trois exemples concrets d’utilisation de la bibliothèque **[Fedoo](https://fedoo.dev)** pour la mécanique des milieux continus.
 
 > 💡 **Basé sur le dépôt original** : [https://github.com/3MAH/fedoo](https://github.com/3MAH/fedoo)  
 > Merci aux auteurs pour leur travail pédagogique et la mise à disposition d'exemples accessibles.
@@ -21,7 +21,7 @@ Ces exemples pédagogiques montrent comment :
 
 ## Exemple 1 : Traction 2D – Influence des conditions aux limites
 
-📄 **Fichier :** `traction_conditions_limites.ipynb`
+📄 **Fichier :** `Fedoo___conditions_aux_limites.ipynb`
 
 Ce premier notebook étudie une plaque carrée soumise à une traction verticale, dans deux cas :
 
@@ -36,7 +36,7 @@ Ce premier notebook étudie une plaque carrée soumise à une traction verticale
 
 ## Exemple 2 : Poutre en I 3D – Flexion verticale
 
-📄 **Fichier :** `poutre_I_flexion.ipynb`
+📄 **Fichier :** `Fedoo_I_shape_beam_bending.ipynb`
 
 Ce second exemple montre comment modéliser une **poutre en I 3D** soumise à une charge verticale à son centre.
 
@@ -46,6 +46,20 @@ Ce second exemple montre comment modéliser une **poutre en I 3D** soumise à un
 - Application de conditions aux limites reproduisant une flexion :
   - Encastrement partiel à la base.
   - Chargement vertical en haut au centre.
+
+---
+## Exemple 3 : Compaction hydrostatique d'une sphère
+
+📄 **Fichier :** `Fedoo_3Dsphere.ipynb`
+
+Ce notebook présente la simulation de la **compaction isotrope** d’une sphère en 3D. Il s'agit d'un cas d'étude classique en mécanique non seulement pour valider le comportement élastique sous contraintes hydrostatiques, mais aussi pour visualiser l'évolution du déplacement radial dans une géométrie sphérique.
+
+- Chargement d’un maillage volumique sphérique (format `.msh`, généré par Gmsh).
+- Extraction automatique de la surface pour identifier les **nœuds de bord**.
+- Application d’un **déplacement radial vers le centre** sur tous les nœuds de la surface, simulant une **compression hydrostatique** (isotrope).
+- Définition d’un matériau **élastique isotrope linéaire** (type acier).
+- Résolution du problème par la méthode des éléments finis avec Fedoo.
+
 
 ---
 
