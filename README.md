@@ -78,3 +78,20 @@ Ce notebook présente la simulation de la **compaction isotrope** d’une sphèr
 
 ```bash
 pip install fedoo numpy pyvista
+
+---
+## Conclusion
+
+Ce projet présente plusieurs exemples de simulations numériques, notamment dans le contexte de l’ingénierie des procédés, utilisant la plateforme Fedoo, un environnement collaboratif pour la modélisation et la simulation. Ces exemples démontrent la capacité des simulations à reproduire numériquement des phénomènes physiques complexes (écoulement, échange thermique, etc.).
+
+Les simulations numériques s’intègrent de manière stratégique dans l’industrie digitale pour plusieurs raisons :
+
+- Elles permettent de prédire et optimiser le comportement de systèmes industriels avant tout prototypage réel.
+- Elles favorisent une réduction des coûts et des temps de développement.
+- Elles facilitent l’intégration de l’intelligence artificielle via l’analyse de grandes quantités de données simulées (ex. : calibration de modèles, apprentissage de comportements complexes).
+- Les environnements comme Fedoo illustrent l’évolution vers des outils collaboratifs, modulaires et accessibles, essentiels dans une démarche Industrie 4.0.
+
+Les avancées récentes en simulations numériques combinent puissance de calcul, interface utilisateur simplifiée, et reproductibilité scientifique. Des outils comme Fedoo illustrent bien cette tendance : ils rendent la simulation plus accessible, modulaire, et efficace. En s'appuyant sur des formats ouverts, des bibliothèques Python et une logique de configuration plutôt que de codage systématique, ces outils permettent de mieux explorer, comprendre et communiquer les phénomènes complexes. En somme, la simulation numérique devient non seulement un pilier de la recherche scientifique moderne, mais aussi un levier pédagogique essentiel pour apprendre à modéliser le réel.
+
+
+
