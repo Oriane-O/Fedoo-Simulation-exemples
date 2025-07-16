@@ -78,6 +78,7 @@ Ce notebook présente la simulation de la **compaction isotrope** d’une sphèr
 
 ```bash
 pip install fedoo numpy pyvista
+```
 
 ---
 ## Conclusion
